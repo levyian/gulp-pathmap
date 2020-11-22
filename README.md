@@ -9,7 +9,7 @@ Rename files with [pathmap][pathmap], rake's [pathmap](http://devblog.avdi.org/2
 
 ``` js
 var gulp = require('gulp');
-var pathmap = require('pathmap');
+var pathmap = require('gulp-pathmap');
 
 // Renames all files according to the pathspec.
 // In this example, the %X token is replaced with the file's
